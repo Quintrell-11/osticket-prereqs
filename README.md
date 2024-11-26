@@ -36,22 +36,26 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+**Install osTicket** To start the process of installing osTicket; I opened and copied the file onto the desktop at which point I unzipped it by extracting it into osTicket on the desktop. After this step; to continue with the lab; I enabled Internet Information services (IIS) so the computer could recognise itself as a wed server by ging into Control panel and enabling IIS along with CGI. The server is now recognizable and will give feedback with loop back (127.0.0.1)
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1710" alt="44AA3F53-CCB7-4F85-AB91-91FBA41BDAFC" src="https://github.com/user-attachments/assets/758fce9b-7db2-4152-9c2e-46fd6f467f5f">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+**Install PHP Manger/My SQL 5.5.62** From within the unzipped osTIcket folder Installed (PHP manager) the scripting language for the webpage and (My SQL 5.5.62) The database for admins and users that will be used for the lab.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="1710" alt="953316F0-29FE-4030-86A0-2BCA3A5013B7" src="https://github.com/user-attachments/assets/0c4b7b83-aa16-4ba4-a75a-ac8f5e1bb7b9">
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+**osTicket Installation** To complete the final instalation of (osTicket) I Registered PHP from inside (IIS Admin) to make my created web server aware of the PHP; browsing to the newly available executable binary located inside of flolder housing PHP and modifications (Windows (C)). After completion I extracted zipped osTicket folder from inside osTicket folder previously placed on desketop into My PHP folder. There is now a new folder availible with 2 items available inside. 
+<p>
+<img width="1710" alt="5DA4C4C6-BC70-4093-8847-1C741C8A9BF0" src="https://github.com/user-attachments/assets/a3e8ec60-acca-4e31-928e-0ed6cd1fde62">
+
+**osTicket Continued** I copied one of the items (upload folder) into into inetpub/root folder, renamed upload folder to osTick and from within (IIS Manager) browsed to osTicket. osTicket is now Installed.
