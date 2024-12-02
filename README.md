@@ -59,3 +59,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="1710" alt="5DA4C4C6-BC70-4093-8847-1C741C8A9BF0" src="https://github.com/user-attachments/assets/a3e8ec60-acca-4e31-928e-0ed6cd1fde62">
 
 **osTicket Continued** I copied one of the items (upload folder) into into inetpub/root folder, renamed upload folder to osTick and from within (IIS Manager) browsed to osTicket. osTicket is now Installed.
+
+**Post Install configuration**
+- From within PHP Manager I enabled extensions PHP(imap,intl,opcache)
+- Renamed ost-sampleconfig.ph to ost-config.php by way of (file explore/windows C:\inetpub\wwwroot\osTicket\include). 
+- From withing newley renamed folder new permissions were assigned. I disabled inheritance, removing previous permissions and added (ALL) as the new setting.
+
+continue to osTicket
+![image](https://github.com/user-attachments/assets/3c2ca270-6bbe-4d85-8c03-d757535b5673)
+
+
