@@ -69,9 +69,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 continue to osTicket
 ![image](https://github.com/user-attachments/assets/3c2ca270-6bbe-4d85-8c03-d757535b5673)
 
-The final step of configuring osTicket for use is creating a database. To connect to my database I downloaded (HeidiSQL) from within the osTicket instalation files preeviously placed on the desktop (New/root credentials) a connection to database is now established 
+The final steps for configuring osTicket for use is creating a database and establishing a connection between the database previously created and the one that will be created later. To connect to my database I downloaded (HeidiSQL) from within the osTicket instalation files preeviously placed on the desktop (New/root credentials) a connection to database is now established 
 
 ![image](https://github.com/user-attachments/assets/fc9db933-a92d-4428-94b9-618bdedd7a30)
 
+**Create osTicket Database**
+Right click the unnamed (create new/database/name it osTicket). Now that the database is created I went back to database settings in the osTicket browser and plugged in newly created database and (root) credentials (osTicket/root/root).
+
+osTicket is now installed and ready to use
+
+![image](https://github.com/user-attachments/assets/024c13d6-eaf9-40cc-beab-53fc437c93ac)
 
 
