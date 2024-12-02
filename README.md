@@ -28,6 +28,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install mySQL 5.5.62
 - IIS
 - Install os
+- Post Installation Configurationsw
 
 <h2>Installation Steps</h2>
 
@@ -67,5 +68,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 continue to osTicket
 ![image](https://github.com/user-attachments/assets/3c2ca270-6bbe-4d85-8c03-d757535b5673)
+
+The final step of configuring osTicket for use is creating a database. To connect to my database I downloaded (HeidiSQL) from within the osTicket instalation files preeviously placed on the desktop (New/root credentials) a connection to database is now established 
+
+![image](https://github.com/user-attachments/assets/fc9db933-a92d-4428-94b9-618bdedd7a30)
+
 
 
