@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Install mySQL 5.5.62
 - IIS
 - Install os
-- Post Installation Configurationsw
+- Post Installation Configurations
 
 <h2>Installation Steps</h2>
 
@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-**Install osTicket** To start the process of installing osTicket; I opened and copied the file onto the desktop at which point I unzipped it by extracting it into osTicket on the desktop. After this step; to continue with the lab; I enabled Internet Information services (IIS) so the computer could recognise itself as a wed server by ging into Control panel and enabling IIS along with CGI. The server is now recognizable and will give feedback with loop back (127.0.0.1)
+**Install osTicket** Copy file onto desktop/extracted or unzippeed file into osTicket/enable Internet Information Services (IIS) and (CGI)from within the (Control Panel)/ The computer now recognizes itself as a server will give feedback with loop back (127.0.0.1)
 </p>
 <br />
 
@@ -51,26 +51,25 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-**osTicket Installation** To complete the final instalation of (osTicket) I Registered PHP from inside (IIS Admin) to make my created web server aware of the PHP; browsing to the newly available executable binary located inside of flolder housing PHP and modifications (Windows (C)). After completion I extracted zipped osTicket folder from inside osTicket folder previously placed on desketop into My PHP folder. There is now a new folder availible with 2 items available inside. 
+**osTicket Installation** To complete the final instalation of (osTicket) I Registered PHP from inside (IIS Admin) to make my created web server aware of the PHP/ browse to the newly available and executable binary located inside of flolder housing PHP and modifications (Windows (C))/ Extracted zipped osTicket folder from inside osTicket folder previously placed on desketop into My PHP folder. There is now a new folder availible with 2 items available inside. 
 <p>
 <img width="1710" alt="5DA4C4C6-BC70-4093-8847-1C741C8A9BF0" src="https://github.com/user-attachments/assets/a3e8ec60-acca-4e31-928e-0ed6cd1fde62">
 
-**osTicket Continued** I copied one of the items (upload folder) into into inetpub/root folder, renamed upload folder to osTick and from within (IIS Manager) browsed to osTicket. osTicket is now Installed.
+**osTicket Continued** Copy (upload folder) into into inetpub/root folder/ rename upload folder to osTick/from within (IIS Manager) browse to osTicket. osTicket is now Installed.
 
 **Post Install configuration**
-- From within PHP Manager I enabled extensions PHP(imap,intl,opcache)
-- Renamed ost-sampleconfig.ph to ost-config.php by way of (file explore/windows C:\inetpub\wwwroot\osTicket\include). 
-- From withing newley renamed folder new permissions were assigned. I disabled inheritance, removing previous permissions and added (ALL) as the new setting.
+Insode PHP Manager enable extensions PHP(imap,intl,opcache)/rename ost-sampleconfig.ph to ost-config.php by way of (file explore/windows C:\inetpub\wwwroot\osTicket\include). 
+From withing newley renamed folder new permissions were assigned by disabling inheritance, removing previous permissions and added (ALL) as the new setting.
 
 continue to osTicket
 ![image](https://github.com/user-attachments/assets/3c2ca270-6bbe-4d85-8c03-d757535b5673)
 
-The final steps for configuring osTicket for use is creating a database and establishing a connection between the database previously created and the one that will be created later. To connect to my database I downloaded (HeidiSQL) from within the osTicket instalation files preeviously placed on the desktop (New/root credentials) a connection to database is now established 
+The final steps for configuring osTicket for use was creating a database and establishing a connection between the database previously created and the one that will be created later. To connect to my database I downloaded (HeidiSQL) from within the osTicket instalation files preeviously placed on the desktop (New/root credentials) a connection to database is now established 
 
 ![image](https://github.com/user-attachments/assets/fc9db933-a92d-4428-94b9-618bdedd7a30)
 
 **Create osTicket Database**
-Right click the unnamed (create new/database/name it osTicket). Now that the database is created I went back to database settings in the osTicket browser and plugged in newly created database and (root) credentials (osTicket/root/root).
+Right click the unnamed (create new/database/name it osTicket). With database created I went back to database settings in the osTicket browser and plugged in newly created database and (root) credentials (osTicket/root/root).
 
 osTicket is now installed and ready to use
 
